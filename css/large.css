@@ -1,0 +1,459 @@
+@font-face{
+    font-family: GothamMedium;
+    src: url("../fonts/Gotham-Medium.otf");
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: GothamBold;
+    src: url("../fonts/Gotham-Bold.otf");
+    font-weight: 700;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.container > .first_div{
+    width: 100%;
+    height: 789px;
+    background-image: url("../images/Layer_1_copy.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.container > .first_div > .first_div_first_image{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.container > .first_div > .first_div_second_image{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.container > .first_div > .first_div_third_image{
+    position: absolute;
+    left:543px;
+    bottom:0;
+    width: 584px;
+    height: 624px;
+    z-index: 4;
+}
+
+.container > .first_div > .first_div_fourth_image{
+    position: absolute;
+    left: 1100px;
+    top:0;
+    width: 536px;
+    height: 672px;
+    z-index: 4;
+}
+
+.container > .first_div > .first_div_fifth_image{
+    position: absolute;
+    left: 1458px;
+    top:66px;
+    width: 462px;
+    height: 501px;
+    z-index: 4;
+}
+
+.container > .first_div > .first_div_main{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.first_div > .first_div_main > .logo{
+    width: 123px;
+    height: 90px;
+    background-color: #ec1d27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_div_main > .logo > .logo1{
+    width: 93px;
+    height: 35px;
+}
+
+.first_div_main > .first_div_main_text{
+    width: 660px;
+    height: auto;
+    margin-top: 125px;
+}
+
+.first_div_main > .first_div_main_text > header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.first_div_main_text > header > h1{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+.first_div_main > .first_div_main_text > section{
+    width: 100%;
+    height: calc(100% - 85px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 35px;
+}
+
+.first_div_main_text > section > p{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.first_div_main > .first_div_main_text > button[type="button"]{
+    width: 155px;
+    height: 51px;
+    background-color: #ee212c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+    border: 0;
+    outline: 0;
+}
+
+.first_div_main > .first_div_main_text > button[type="button"]:hover{
+    cursor: pointer;
+}
+
+.first_div_main_text > button[type="button"] > p{
+    color: #ffffff;
+    font-family: GothamBold;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.first_div_main > .first_div_main_text > .block_inform{
+    position: absolute;
+    bottom: 62px;
+    right: 0;
+    width: 150px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first_div_main_text > .block_inform > img{
+    width: 72px;
+    height: 72px;
+}
+
+.second_div{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second_div > .second_div_main{
+    width: 1000px;
+    height: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.second_div > .second_div_main > .top_row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.second_div_main > .top_row > .el{
+    width: 20%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_row > .el > .img-perf{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.el > .img-perf > img{
+    width: 100px;
+    height: 100px;
+}
+
+.top_row > .el > .text-perf{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.el > .text-perf > p{
+    color: #000000;
+    font-family: GothamMedium;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.second_div > .second_div_main > .bottom_row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px
+}
+
+.bottom_row > .el > .text-perf{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bottom_row > .el > .img-perf{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.second_div_main > .bottom_row > .el{
+    width: 20%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_div{
+    width: 100%;
+    height: 1400px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.third_div > .third_div_main{
+    width: 995px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.third_div > .third_div_main > header{
+    width: 1000px;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third_div_main > header > h1{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 80px;
+}
+
+.third_div > .third_div_main > section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.third_div_main > section > p{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.third_div > .third_div_main_content{
+    width: 100%;
+    height: auto;
+    margin-top: 189px;
+    position: relative;
+    z-index: 10;
+}
+
+.third_div > .third_div_main_content > .innerText{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.third_div_main_content > .innerText > header{
+    width: auto;
+    height: auto;
+}
+
+.innerText > header > h1{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.third_div_main_content > .innerText > section{
+    width: auto;
+    height: auto;
+    margin-top: 32px;
+}
+
+.innerText > section > p{
+    color: #fefefe;
+    font-family: GothamMedium;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.third_div > img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    height: auto;
+    z-index: 1;
+}
+
+.fourth_div{
+    width: 100%;
+    height: 920px;
+    background-image: url("../images/Layer_41.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 85px;
+}
+
+.fourth_div > .fourth_div_main_content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.fourth_div > .fourth_div_main_content > .innerText{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.fourth_div_main_content > .innerText > header{
+    width: auto;
+    height: auto;
+}
+
+.fourth_div_main_content > .innerText > header > h1{
+    color: #000000;
+    font-family: GothamMedium;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.fourth_div_main_content > .innerText > section{
+    width: auto;
+    height: auto;
+    margin-top: 37px;
+    position: relative;
+}
+
+.fourth_div_main_content > .innerText > section > p{
+    color: #000000;
+    font-family: GothamMedium;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.fourth_div_main_content > .innerText > .phone{
+    width: 300px;
+    height: 522px;
+    background-image: url("../images/Layer_42.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.innerText > .phone > img{
+    width: 286px;
+    height: 535px;
+    margin-top: 10px;
+}
