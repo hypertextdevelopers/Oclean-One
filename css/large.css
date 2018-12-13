@@ -995,6 +995,10 @@ body{
     cursor: pointer;
 }
 
+.inner > .bottom > button:focus{
+    outline: 0;
+}
+
 .tenth_div{
     width: 100%;
     height: 860px;
@@ -1053,4 +1057,81 @@ body{
     position: absolute;
     top:0;
     left: 100px;
+}
+
+.eleventh_div{
+    width: 100%;
+    height: 789px;
+    background-color: #fbe9ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.eleventh_div > .inner{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.eleventh_div > .inner > .content{
+    width: auto;
+    height: auto;
+    margin-top: 119px;
+}
+
+.inner > .content > header{
+    width: auto;
+    height: auto;
+}
+
+.inner > .content > header > h1{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 3rem;
+    font-weight: 500;    
+}
+
+.inner > .content > section{
+    width: auto;
+    height: auto;
+    margin-top: 31px;
+}
+
+.inner > .content > section > p{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 1.125rem;
+    font-weight: 500; 
+    text-align: left;   
+}
+
+.eleventh_div > .bg1{
+    width: 650px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 40vw;
+    transform: rotate(-15deg);
+}
+
+.eleventh_div > .bg2{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 1350px;
+}
+
+.eleventh_div > .bg3{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    bottom: -150px;
+    left: 1450px;
+    transform: rotate(145deg);
 }
