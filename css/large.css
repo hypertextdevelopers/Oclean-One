@@ -939,7 +939,118 @@ body{
 
 .inner_content > .bottom_row > .logo{
     width: 349px;
-    height: 703px;
-    background: grey;
-    margin-left: 20px;
+    height: auto;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_row > .logo > .inner{
+    width: 290px;
+    height:auto;
+    margin-top: 119px;
+}
+
+.logo > .inner > .top{
+    width: 100%;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > .inner > .top > img{
+    width: 145px;
+    height: 145px;
+}
+
+.logo > .inner > .top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > .inner > .bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+
+.inner > .bottom > button{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 109px;
+    height: 45px;
+    text-align: center;
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tenth_div{
+    width: 100%;
+    height: 860px;
+    background-image: url("../images/Layer_58.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tenth_div > .content{
+    width: 374px;
+    height: auto;
+    margin-top: 80px;
+}
+
+.tenth_div > .content > header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > header > h1{
+    color: #000000;
+    font-family: GothamMedium;
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.tenth_div > .content > section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.content > section > p{
+    color: #000000;
+    font-family: GothamMedium;
+    font-size: 1.5rem;
+    font-weight: 500;    
+    text-align: center;
+}
+
+.tenth_div > .layer_55{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top:0;
+    left: 100px;
 }
