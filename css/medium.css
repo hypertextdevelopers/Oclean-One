@@ -1,4 +1,4 @@
-@media all and (min-width: 1200px){
+@media all and (min-width: 768px) and (max-width: 1199px){
 
     @font-face{
     font-family: GothamMedium;
@@ -88,7 +88,7 @@ body{
 }
 
 .container > .first_div > .first_div_main{
-    width: 80%;
+    width: 90%;
     height: 100%;
     position: relative;
     display: flex;
@@ -197,7 +197,7 @@ body{
 }
 
 .second_div > .second_div_main{
-    width: 1000px;
+    width: 720px;
     height: auto;
     margin-top: 65px;
     margin-bottom: 65px;
@@ -284,7 +284,7 @@ body{
 
 .third_div{
     width: 100%;
-    height: 1400px;
+    height: 1150px;
     background-color: #000000;
     display: flex;
     flex-direction: column;
@@ -294,7 +294,7 @@ body{
 }
 
 .third_div > .third_div_main{
-    width: 995px;
+    width: 720px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -304,7 +304,7 @@ body{
 }
 
 .third_div > .third_div_main > header{
-    width: 1000px;
+    width: 100%;
     height:auto;
     display: flex;
     align-items: center;
@@ -314,7 +314,7 @@ body{
 .third_div_main > header > h1{
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 500;
     text-align: center;
     line-height: 80px;
@@ -332,15 +332,15 @@ body{
 .third_div_main > section > p{
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
 }
 
 .third_div > .third_div_main_content{
-    width: 100%;
+    width: 720px;
     height: auto;
-    margin-top: 189px;
+    margin-top: 100px;
     position: relative;
     z-index: 10;
 }
@@ -359,8 +359,9 @@ body{
 .innerText > header > h1{
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
+    text-align: center;
 }
 
 .third_div_main_content > .innerText > section{
@@ -372,8 +373,9 @@ body{
 .innerText > section > p{
     color: #fefefe;
     font-family: GothamMedium;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 500;
+    text-align: center;
 }
 
 .third_div > img{
@@ -421,7 +423,7 @@ body{
     font-family: GothamMedium;
     font-size: 3rem;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
 }
 
 .fourth_div_main_content > .innerText > section{
@@ -447,7 +449,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     bottom: 0;
-    left: 50px;
+    left: 50%;
+    margin-left: -150px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -475,7 +478,7 @@ body{
 }
 
 .fifth_div > .inner_content{
-    width: 1100px;
+    width: 720px;
     height: auto;
     margin-top: 80px;
     display: flex;
@@ -496,9 +499,9 @@ body{
     text-align: center;
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 4rem;
+    font-size: 3.2rem;
     font-weight: 500;
-    line-height: 78px;
+    line-height: 60px;
 }
 
 .fifth_div > .inner_content > section{
@@ -513,14 +516,14 @@ body{
 .inner_content > section > p{
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
 }
 
 .sixth_div{
     width: 100%;
-    height: 1122px;
+    height: 1040px;
     background-color: #9dd4ff;
     display: flex;
     align-items: flex-end;
@@ -528,17 +531,15 @@ body{
 }
 
 .sixth_div > .sixth_div_inner{
-    width: 1150px;
-    height: 900px;
+    width: 720px;
+    height: 950px;
     position: relative;
 }
 
 .sixth_div > .sixth_div_inner > .inner_text{
     width: 570px;
     height: auto;
-    position: absolute;
-    top:0;
-    left:0;
+    margin: auto;
     z-index: 1;
 }
 
@@ -563,7 +564,7 @@ body{
     width: auto;
     height: auto;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 35px;
     position: relative;
 }
@@ -572,12 +573,13 @@ body{
     color: #ffffff;
     font-family: GothamMedium;
     font-size: 1.125rem;
-    font-weight: 500;    
+    font-weight: 500; 
+    text-align: center;   
 }
 
 .sixth_div_inner > .image_box{
-    width: 900px;
-    height: 800px;
+    width: 720px;
+    height: 700px;
     position: absolute;
     bottom: 0;
     right: 0px;
@@ -603,7 +605,7 @@ body{
 }
 
 .sixth_div_inner > .image_box > .bg_third{
-    width: 700px;
+    width: 600px;
     height: 100%;
     position: absolute;
     top:0;
@@ -613,29 +615,29 @@ body{
 }
 
 .sixth_div_inner > .image_box > .bg_fourth{
-    width: 250px;
+    width: 210px;
     height: 6px;
     position: absolute;
-    top:252.5px;
-    left:315px;
+    top:221px;
+    left:198.5px;
     z-index: 11;
 }
 
 .sixth_div_inner > .image_box > .bg_fifth{
-    width: 190px;
+    width: 170px;
     height: 6px;
     position: absolute;
-    top:156.5px;
-    left:335.5px;
+    top:137px;
+    left:205px;
     z-index: 11;
 }
 
 .sixth_div_inner > .image_box > .bg_sixth{
-    width: 155px;
+    width: 140px;
     height: 6px;
     position: absolute;
-    top:51px;
-    right:195px;
+    top:45px;
+    right:185px;
     z-index: 11;
 }
 
@@ -643,11 +645,11 @@ body{
     width: auto;
     height: auto;
     position: absolute;
-    top: 245px;
-    left: 68px;
+    top: 215px;
+    left: 0px;
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
 }
 
@@ -655,11 +657,11 @@ body{
     width: auto;
     height: auto;
     position: absolute;
-    top: 149px;
-    left: 140px;
+    top: 131px;
+    left: 48px;
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
 }
 
@@ -667,11 +669,11 @@ body{
     width: auto;
     height: auto;
     position: absolute;
-    top: 45px;
-    right: 0px;
+    top: 40px;
+    right: 25px;
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
 }
 
@@ -690,7 +692,7 @@ body{
 }
 
 .seventh_div > .inner_text{
-    width: 821px;
+    width: 720px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -708,7 +710,7 @@ body{
 .seventh_div > .inner_text > header > h1{
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 500; 
     text-align: center;   
 }
@@ -725,7 +727,7 @@ body{
 .seventh_div > .inner_text > section > p{
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     text-align: center;
 }
@@ -810,11 +812,11 @@ body{
 }
 
 .eighth_div > .inner_content{
-    width: 80%;
+    width: 720px;
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: center; 
     margin-top: 120px;
 }
 
@@ -823,7 +825,7 @@ body{
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .eighth_div > .inner_content > header > h1{
@@ -831,7 +833,7 @@ body{
     font-family: GothamMedium;
     font-size: 3rem;
     font-weight: 500; 
-    text-align: left;   
+    text-align: center;   
 }
 
 .eighth_div > .inner_content > section{
@@ -848,7 +850,7 @@ body{
     font-family: GothamMedium;
     font-size: 1.125rem;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
 }
 
 .ninth_div{
@@ -864,7 +866,7 @@ body{
 }
 
 .ninth_div > .inner_content{
-    width: 1100px;
+    width: 720px;
     height: auto;
     margin-top: 75px;
     display: flex;
@@ -873,7 +875,7 @@ body{
 }
 
 .ninth_div > .inner_content > .top_row{
-    width: 900px;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -892,7 +894,7 @@ body{
 .inner_content > .top_row > header > h1{
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;   
     text-align: center; 
 }
@@ -909,7 +911,7 @@ body{
 .inner_content > .top_row > section > p{
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 500;   
     text-align: center;
 }
@@ -1082,7 +1084,7 @@ body{
     height: 500px;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .eleventh_div > .inner > .content{
@@ -1114,7 +1116,7 @@ body{
     font-family: GothamMedium;
     font-size: 1.125rem;
     font-weight: 500; 
-    text-align: left;   
+    text-align: center;   
 }
 
 }
