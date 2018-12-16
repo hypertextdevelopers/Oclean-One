@@ -624,20 +624,20 @@ body{
 }
 
 .sixth_div_inner > .image_box > .bg_fourth{
-    width: 90px;
+    width: 70px;
     height: 4px;
     position: absolute;
-    top:126px;
-    left:159px;
+    top:110px;
+    left:106px;
     z-index: 11;
 }
 
 .sixth_div_inner > .image_box > .bg_fifth{
-    width: 80px;
+    width: 50px;
     height: 4px;
     position: absolute;
-    top:78px;
-    left:153px;
+    top:68px;
+    left:112px;
     z-index: 11;
 }
 
@@ -645,8 +645,8 @@ body{
     width: 35px;
     height: 4px;
     position: absolute;
-    top:25.3px;
-    right:122px;
+    top:22px;
+    right:115px;
     z-index: 11;
 }
 
@@ -654,11 +654,11 @@ body{
     width: auto;
     height: auto;
     position: absolute;
-    top: 122px;
-    left: 10px;
+    top: 107px;
+    left: 5px;
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: .6rem;
+    font-size: .4rem;
     font-weight: 500;
 }
 
@@ -666,11 +666,11 @@ body{
     width: auto;
     height: auto;
     position: absolute;
-    top: 74px;
-    left: 35px;
+    top: 66px;
+    left: 30px;
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: .6rem;
+    font-size: .4rem;
     font-weight: 500;
 }
 
@@ -678,11 +678,11 @@ body{
     width: auto;
     height: auto;
     position: absolute;
-    top: 22px;
-    right: 5px;
+    top: 20px;
+    right: 30px;
     color: #ffffff;
     font-family: GothamMedium;
-    font-size: .6rem;
+    font-size: .4rem;
     font-weight: 500;
 }
 
