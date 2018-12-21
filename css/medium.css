@@ -1181,4 +1181,224 @@ body{
     text-align: center;   
 }
 
+.manual{
+    width: 100%;
+    height: 420px;
+    background-color: #2e2e30;
+    box-sizing: border-box;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual > .content{
+    width: 800px;
+    height: auto;
+}
+
+.manual > .content > header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manual > .content > header > h1{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.manual > .content > section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.content > section > a > i{
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.content > section > a > i:hover{
+    color: #ec1d27;
+}
+
+.manual > .content > section > p{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 1.2rem;
+    font-weight: 500;    
+    text-align: center;
+}
+
+.contact{
+    width: 100%;
+    height:900px;
+    background-color: #b7b6b5;
+    box-sizing: border-box;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.contact > .content{
+    width: 800px;
+    height: auto;
+}
+
+.contact > .content > header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact > .content > header > h1{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contact > .content > section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.contact > .content > section > p{
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 1rem;
+    font-weight: 500;    
+    text-align: center;
+}
+
+.content > section > form{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.contact > .content > .success{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: 1.2rem;
+    font-weight: 500;    
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: -500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .1s linear;
+}
+
+section > form > input[type="email"]{
+    width: 400px;
+    height: 50px;
+    outline: 0;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: .9rem;
+    font-weight: 500;   
+}
+
+section > form > input[type="email"]::placeholder{
+    color: #ffffff;
+}
+
+section > form > input[type="text"]::placeholder{
+    color: #ffffff;
+}
+
+section > form > textarea::placeholder{
+    color: #ffffff;
+}
+
+section > form > input[type="text"]{
+    width: 400px;
+    height: 50px;
+    outline: 0;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    margin-top: -50px;
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: .9rem;
+    font-weight: 500;    
+}
+
+section > form > textarea{
+    resize: none;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: -50px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: GothamMedium;
+    font-size: .9rem;
+    font-weight: 500;    
+}
+
+section > form > button{
+    width: 155px;
+    height: 51px;
+    background-color: #ee212c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+    margin-top: -40px;
+    color: #ffffff;
+    font-family: GothamBold;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+section > form > button:focus{
+    outline: 0;
+    border:0;
+}
+
 }

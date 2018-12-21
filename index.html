@@ -14,8 +14,11 @@
     <link rel="stylesheet" type="text/css" href="css/extra_small.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/burger.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/locations.js"></script>
+    <script src="js/form.js"></script>
 
     <meta name="description" content=" Elektryczne smart soniczne szczoteczki do zębów Oclean. Inteligentny sposób na zdrowe zęby." />
     <meta name="keywords" content="Oclean, Xiaomi, soniczna szczoteczka do zębów, Oclean SE, Oclean One, Oclean Air, inteligentna szczoteczka do zębów, Smart" />
@@ -26,7 +29,7 @@
 
 <body>
     
-    <div class="container">
+    <div class="container" id="start">
 
         <div class="first_div">
 
@@ -55,19 +58,19 @@
 
                                 <ul>
 
-                                    <li>
+                                    <li id="s1">
 
                                         <p>Szczoteczki Oclean</p>
 
                                     </li>
 
-                                    <li>
+                                    <li id="s2">
 
                                         <p>Instrukcja obsługi</p>
 
                                     </li>
 
-                                    <li>
+                                    <li id="s3">
 
                                         <p>Kontakt</p>
 
@@ -84,9 +87,9 @@
 
                         <div class="bottom" id="bottom">
 
-                            <div class="refs"><p>Szczoteczki Oclean</p></div>
-                            <div class="refs"><p>Instrukcja obsługi</p></div>
-                            <div class="refs"><p>Kontakt</p></div>
+                            <div class="refs" id="s4"><p>Szczoteczki Oclean</p></div>
+                            <div class="refs" id="s5"><p>Instrukcja obsługi</p></div>
+                            <div class="refs" id="s6"><p>Kontakt</p></div>
 
                         </div>
 
@@ -106,7 +109,7 @@
 
                         </section>
 
-                        <button type="button"><p>Zamów</p></button>
+                        <button type="button" id="order"><p>Zamów</p></button>
 
                         <div class="block_inform">
 
@@ -491,9 +494,9 @@
 
                             <div class="bottom">
 
-                                <button>Android</button>
+                                <button id="android">Android</button>
 
-                                <button>iOS</button>
+                                <button id="ios">iOS</button>
 
                             </div>
 
@@ -551,7 +554,7 @@
 
         </div>
 
-        <div class="manual">
+        <div class="manual" id="manual">
 
             <div class="content">
 
@@ -564,9 +567,46 @@
                 <section>
 
                     <p>Pobierz klikając ikonę poniżej</p>
-                    <a href="cv-1544703180.pdf" download="instrukcja.pdf"><i class="fas fa-file-pdf"></i></a>
+                    <a href="Manual-Oclean-Rafal-Stepien.pdf" download="instrukcja.pdf"><i class="fas fa-file-pdf"></i></a>
 
                 </section>
+
+            </div>
+
+        </div>
+
+        <div class="contact" id="contact">
+
+            <div class="content">
+
+                <header>
+
+                    <h1>Kontakt.</h1>
+
+                </header>
+
+                <section>
+
+                    <p>Skontaktuj się z nami</p>
+
+                    <form action="" method="POST" id="form">
+
+                        <input type="email" placeholder="Adres e-mail" id="mail" autocomplete="off">
+                        <input type="text" placeholder="Imię" id="name" autocomplete="off">
+                        <input type="text" placeholder="Nazwisko" id="last_name" autocomplete="off">
+                        <input type="text" placeholder="Temat" id="topic" class="topic" autocomplete="off">
+                        <textarea placeholder="Wprowadź wiadomość..." id="message" autocomplete="off"></textarea>
+                        <button type="button" id="form_btn">Wyślij</button>
+
+                    </form>
+
+                </section>
+
+                <div class="success" id="success">
+
+                    <p>Wiadomość została wysłana, jak najszybciej skontaktujemy się z Tobą.</p>
+
+                </div>
 
             </div>
 
