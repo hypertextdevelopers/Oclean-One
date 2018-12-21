@@ -31,11 +31,7 @@ body{
 .container > .first_div{
     width: 100%;
     height: 750px;
-    background-image: url("../images/Layer_1_copy.png");
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f9e3e8;
     position: relative;
     z-index: 1;
     display: flex;
@@ -49,6 +45,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 3;
+    display: none;
 }
 
 .container > .first_div > .first_div_second_image{
@@ -58,6 +55,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 2;
+    display: none;
 }
 
 .container > .first_div > .first_div_third_image{
@@ -97,25 +95,90 @@ body{
     z-index: 10;
 }
 
-.first_div > .first_div_main > .logo{
+.nav-bar > .top > .logo{
     width: 123px;
     height: 90px;
     background-color: #ec1d27;
     display: flex;
     justify-content: center;
     align-items: center;
+    float: left;
 }
 
-.first_div_main > .logo > .logo1{
+.top > .logo > .logo1{
     width: 93px;
     height: 35px;
+}
+
+.first_div_main > .nav-bar{
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+}
+
+.first_div_main > .nav-bar > .top{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    z-index: 30;
+    background-color: #f9e3e8;
+    transition: all .5s linear;
+}
+
+.nav-bar > .top > .burger{
+    width: 90px;
+    height: 90px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.first_div_main > .nav-bar > .bottom{
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    top: -150px;
+    z-index: 20;
+    transition: all .5s linear;
+}
+
+.nav-bar > .top > .navigation{
+    display: none;
+}
+
+
+.nav-bar > .bottom > .refs{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #f3b8c6;
+    border-bottom: 1px solid #ffffff;
+}
+
+.nav-bar > .bottom > .refs:last-child{
+    border-bottom: 0;
+}
+
+.bottom > .refs > p{
+    text-align: center;
+    font-family: GothamMedium;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
 }
 
 .first_div_main > .first_div_main_text{
     width: 400px;
     height: auto;
     margin: auto;
-    margin-top: 125px;
+    margin-top: 150px;
 }
 
 .first_div_main > .first_div_main_text > header{
