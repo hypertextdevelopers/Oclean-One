@@ -65,6 +65,7 @@ window.addEventListener('resize', function(){
         let burger = document.getElementById("burger");
         let box = document.getElementById("bottom");
         let flag = false;
+        box.style.top = "-150px";
 
         burger.addEventListener('click', function(){
 
