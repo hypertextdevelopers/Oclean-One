@@ -5,7 +5,10 @@
     $last_name = $_GET['last_name'];
     $topic = $_GET['topic'];
     $message = $_GET['message'];
-    $headers = 'Od: '.$mail.', '.$name.', '.$last_name; 
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= 'Od: '.$mail."\r\n";
+    $headers .= 'Imię: '.$name."\r\n";
+    $headers .= 'Nazwisko: '.$last_name."\r\n";
 
     echo $mail;
     echo $name;
