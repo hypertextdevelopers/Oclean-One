@@ -10,12 +10,13 @@
     $headers .= 'Imię: '.$name."\r\n";
     $headers .= 'Nazwisko: '.$last_name."\r\n";
 
-    echo $mail;
-    echo $name;
-    echo $last_name;
-    echo $topic;
-    echo $message;
+    $mess = 'Od: '.$mail."\r\n";
+    $mess .= 'Imię: '.$name."\r\n";
+    $mess .= 'Nazwisko: '.$last_name."\r\n";
+    $mess .= $message;
 
-    mail('kontakt@oclean.pl', $topic, $message, $headers);
+    echo $mess;
+
+    mail('kontakt@oclean.pl', $topic, $mess, $headers);
 
 ?>
